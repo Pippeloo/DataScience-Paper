@@ -21,8 +21,9 @@ def predict():
     current_time = time.time()
     # Loop the specified number of times
     for i in range(10):
+        # ['Schooling', 'BMI', 'Alcohol', 'thinness 5-9 years', 'HIV/AIDS', 'Adult Mortality', 'Income composition of resources', 'thinness  1-19 years']
         # Make a prediction for the specified features.
-        model.predict([[263, 62, 0.01, 71.27962362, 65, 1154, 19.1, 83, 6, 8.16, 65, 0.1, 584.25921, 33736494, 17.2, 17.3,0.479, 10.1]])
+        model.predict([[14.2, 18.1, 4.61, 4.6, 0.1, 263, 0.434, 4.7]])
         # Add the current time measurement to the list
         time_measurements.append(time.time() - current_time)
         # Get the CPU usage
