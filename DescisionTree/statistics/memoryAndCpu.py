@@ -21,7 +21,6 @@ def predict():
     current_time = time.time()
     # Loop the specified number of times
     for i in range(10):
-        # ['Schooling', 'BMI', 'Alcohol', 'thinness 5-9 years', 'HIV/AIDS', 'Adult Mortality', 'Income composition of resources', 'thinness  1-19 years']
         # Make a prediction for the specified features.
         model.predict([[14.2, 18.1, 4.61, 4.6, 0.1, 263, 0.434, 4.7]])
         # Add the current time measurement to the list
