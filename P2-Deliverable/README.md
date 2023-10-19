@@ -7,6 +7,10 @@ To Run This Code:
 	pickle, joblib, memory_profiler, time, psutil.*
 	**RUN CODE BLOCKS IN ORDER**
 4) Then go to the Statisticsfolder and download "memoryAndCpu.py"
+
 	*This script is to get the Memory and Cpu Time for the models*
 	hi
 	hi -moon hi
+
+
+
