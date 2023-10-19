@@ -9,3 +9,4 @@ To Run This Code:
 4) Then go to the Statisticsfolder and download "memoryAndCpu.py"
 	*This script is to get the Memory and Cpu Time for the models*
 	hi
+	hi -moon hi
